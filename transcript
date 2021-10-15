@@ -1,0 +1,430 @@
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 14:19:40 on Oct 05,2021
+# Loading work.testbench
+# Loading work.keypad
+add wave -position insertpoint sim:/testbench/*
+run 500 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(18)
+#    Time: 400 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 18
+add wave -position insertpoint sim:/testbench/*
+run 500 ns
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.keypad
+run 500 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(18)
+#    Time: 400 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 18
+add wave -position insertpoint sim:/testbench/*
+restart -f
+run 500 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(18)
+#    Time: 400 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 18
+# Compile of shift_reg.v failed with 5 errors.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v failed with 1 errors.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of shift_reg.v was successful.
+vsim -gui work.shift_reg
+# End time: 14:45:24 on Oct 05,2021, Elapsed time: 0:25:44
+# Errors: 0, Warnings: 16
+# vsim -gui work.shift_reg 
+# Start time: 14:45:24 on Oct 05,2021
+# Loading work.shift_reg
+add wave -position insertpoint sim:/shift_reg/*
+run 500 ns
+restart -f
+add wave -r /*
+run 500 ns
+# Compile of reg_test.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 500 ns
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+run 500 ns
+vsim -gui work.reg_test
+# End time: 14:51:08 on Oct 05,2021, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 1
+# vsim -gui work.reg_test 
+# Start time: 14:51:08 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add wave -position insertpoint sim:/reg_test/*
+run 500 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/reg_test.v(20)
+#    Time: 20 ps  Iteration: 0  Instance: /reg_test
+# Break in Module reg_test at C:/Users/PC'S/Desktop/keypad/reg_test.v line 20
+# Compile of reg_test.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reg_test
+run 50 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/reg_test.v(20)
+#    Time: 30 ps  Iteration: 0  Instance: /reg_test
+# Break in Module reg_test at C:/Users/PC'S/Desktop/keypad/reg_test.v line 20
+# Compile of reg_test.v was successful.
+run 500 ns
+# Compile of shift_reg.v was successful.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+vsim -gui work.reg_test
+# End time: 15:21:51 on Oct 05,2021, Elapsed time: 0:30:43
+# Errors: 0, Warnings: 12
+# vsim -gui work.reg_test 
+# Start time: 15:21:51 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add wave -position insertpoint sim:/reg_test/*
+run 50 ns
+# Compile of shift_reg.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (4) for port 'out'. The port definition is at: C:/Users/PC'S/Desktop/keypad/shift_reg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_test/sr File: C:/Users/PC'S/Desktop/keypad/reg_test.v Line: 5
+# Compile of reg_test.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reg_test
+run 50 ns
+add wave -position insertpoint sim:/reg_test/*
+restart -f
+run 50 ns
+# Compile of reg_test.v failed with 2 errors.
+# Compile of reg_test.v failed with 2 errors.
+# Compile of reg_test.v failed with 2 errors.
+# Compile of reg_test.v was successful with warnings.
+# Compile of reg_test.v was successful with warnings.
+# Compile of reg_test.v was successful with warnings.
+# Compile of reg_test.v was successful with warnings.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg.v failed with 2 errors.
+# Compile of shift_reg.v was successful.
+vsim -gui work.shift_reg
+# End time: 15:28:32 on Oct 05,2021, Elapsed time: 0:06:41
+# Errors: 0, Warnings: 11
+# vsim -gui work.shift_reg 
+# Start time: 15:28:32 on Oct 05,2021
+# Loading work.shift_reg
+add wave -r /*
+run 50 ns
+# Compile of reg_test.v was successful.
+# Compile of shift_reg.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+run 50 ns
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.reg_test
+# End time: 15:33:41 on Oct 05,2021, Elapsed time: 0:05:09
+# Errors: 0, Warnings: 2
+# vsim -gui work.reg_test 
+# Start time: 15:33:41 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+# Compile of shift_reg.v was successful.
+# Load canceled
+# A time value could not be extracted from the current line
+vsim -gui work.reg_test
+# End time: 15:34:11 on Oct 05,2021, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim -gui work.reg_test 
+# Start time: 15:34:11 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add wave -r /*
+run 50 ns
+run 50 ns
+run 50 ns
+# Compile of reg_test.v was successful with warnings.
+# Compile of reg_test.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reg_test
+run 50 ns
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.reg_test
+# End time: 16:25:35 on Oct 05,2021, Elapsed time: 0:51:24
+# Errors: 0, Warnings: 4
+# vsim -gui work.reg_test 
+# Start time: 16:25:35 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+# Compile of reg_test.v was successful.
+vsim -gui work.reg_test
+# End time: 16:26:00 on Oct 05,2021, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim -gui work.reg_test 
+# Start time: 16:26:00 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add wave -r /*
+run 50 ns
+# WARNING: No extended dataflow license exists
+# Compile of shift_reg.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+run 50 ns
+restart -f
+run 20 ns
+add wave -r /*
+restart -f
+run 20 ns
+# Compile of reg_test.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reg_test
+restart -f
+run 20 ns
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Load canceled
+# Compile of reg_test.v was successful.
+vsim -gui work.reg_test
+# End time: 16:48:37 on Oct 05,2021, Elapsed time: 0:22:37
+# Errors: 0, Warnings: 4
+# vsim -gui work.reg_test 
+# Start time: 16:48:37 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg_1
+# WARNING: No extended dataflow license exists
+step -current
+# ** UI-Msg: (vsim-12081) The specified scope, sim:/reg_test, is not a process or thread.
+# 
+# Compile of reg_test.v was successful.
+vsim -gui work.reg_test
+# End time: 16:49:19 on Oct 05,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# vsim -gui work.reg_test 
+# Start time: 16:49:19 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'shif'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /reg_test/shif File: C:/Users/PC'S/Desktop/keypad/reg_test.v Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'out'. The port definition is at: C:/Users/PC'S/Desktop/keypad/shift_reg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_test/shif File: C:/Users/PC'S/Desktop/keypad/reg_test.v Line: 5
+# ** Warning: (vsim-3722) C:/Users/PC'S/Desktop/keypad/reg_test.v(5): [TFMPC] - Missing connection for port 'ID'.
+# Compile of reg_test.v was successful.
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.reg_test
+# End time: 16:50:10 on Oct 05,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 6
+# vsim -gui work.reg_test 
+# Start time: 16:50:10 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'shif'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /reg_test/shif File: C:/Users/PC'S/Desktop/keypad/reg_test.v Line: 4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'out'. The port definition is at: C:/Users/PC'S/Desktop/keypad/shift_reg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_test/shif File: C:/Users/PC'S/Desktop/keypad/reg_test.v Line: 4
+# ** Warning: (vsim-3722) C:/Users/PC'S/Desktop/keypad/reg_test.v(4): [TFMPC] - Missing connection for port 'ID'.
+# Compile of shift_reg.v was successful.
+vsim -gui work.reg_test
+# End time: 16:50:44 on Oct 05,2021, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 5
+# vsim -gui work.reg_test 
+# Start time: 16:50:44 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add wave -r /*
+run 20 ns
+# Compile of shift_reg1.v was successful.
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg1.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.reg_test
+# End time: 16:54:05 on Oct 05,2021, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 4
+# vsim -gui work.reg_test 
+# Start time: 16:54:05 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+add dataflow sim:/reg_test/*
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run 10 ns
+# Compile of shift_reg1.v was successful.
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg1.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reg_test
+# Loading work.shift_reg
+# Loading work.shift_reg1
+vsim -gui work.reg_test
+# End time: 16:56:10 on Oct 05,2021, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 1
+# vsim -gui work.reg_test 
+# Start time: 16:56:10 on Oct 05,2021
+# Loading work.reg_test
+# Loading work.shift_reg
+# Loading work.shift_reg1
+# WARNING: No extended dataflow license exists
+add wave -r /*
+run 10 ns
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+vsim -gui work.testbench
+# End time: 16:59:50 on Oct 05,2021, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 3
+# vsim -gui work.testbench 
+# Start time: 16:59:50 on Oct 05,2021
+# Loading work.testbench
+# Loading work.keypad
+# Loading work.shift_reg
+# Loading work.shift_reg1
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/k/r0 File: C:/Users/PC'S/Desktop/keypad/keypad.v Line: 10
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/k/r1 File: C:/Users/PC'S/Desktop/keypad/keypad.v Line: 11
+# Error loading design
+# End time: 16:59:50 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of keypad.v was successful.
+# Load canceled
+# Break key hit
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:00:44 on Oct 05,2021
+# Loading work.testbench
+# Loading work.keypad
+# Loading work.shift_reg
+# Loading work.shift_reg1
+# WARNING: No extended dataflow license exists
+add wave sim:/testbench/*
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(22)
+#    Time: 40 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 22
+run -all
+# Compile of testbench.v was successful.
+# Break key hit
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 10
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Compile of testbench.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(30)
+#    Time: 80 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 30
+# Compile of testbench.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(30)
+#    Time: 80 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 30
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg1.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 08:32:03 on Oct 06,2021, Elapsed time: 15:31:19
+# Errors: 0, Warnings: 2
+# vsim -gui work.testbench 
+# Start time: 08:32:03 on Oct 06,2021
+# Loading work.testbench
+# Loading work.keypad
+# Loading work.shift_reg
+# Loading work.shift_reg1
+add wave sim:/testbench/*
+run -all
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(30)
+#    Time: 80 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 30
+run 10 ns
+# Compile of testbench.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(32)
+#    Time: 90 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 32
+# Compile of keypad.v was successful.
+# Compile of testbench.v was successful.
+# Compile of shift_reg.v was successful.
+# Compile of reg_test.v was successful.
+# Compile of shift_reg1.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.keypad
+# Loading work.shift_reg
+# Loading work.shift_reg1
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(32)
+#    Time: 90 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 32
+# Compile of keypad.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.keypad
+run 10 ns
+# ** Note: $stop    : C:/Users/PC'S/Desktop/keypad/testbench.v(32)
+#    Time: 90 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/PC'S/Desktop/keypad/testbench.v line 32
+# End time: 08:50:23 on Oct 06,2021, Elapsed time: 0:18:20
+# Errors: 0, Warnings: 1

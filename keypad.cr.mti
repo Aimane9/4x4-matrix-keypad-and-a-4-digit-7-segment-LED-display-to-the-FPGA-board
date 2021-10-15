@@ -1,0 +1,36 @@
+C:/Users/PC'S/Desktop/keypad/reg_test.v {1 {vlog -work work -stats=none {C:\Users\PC'S\Desktop\keypad\reg_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_test
+
+Top level modules:
+	reg_test
+
+} {} {}} C:/Users/PC'S/Desktop/keypad/keypad.v {1 {vlog -work work -stats=none {C:\Users\PC'S\Desktop\keypad\keypad.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module keypad
+
+Top level modules:
+	keypad
+
+} {} {}} C:/Users/PC'S/Desktop/keypad/shift_reg.v {1 {vlog -work work -stats=none {C:\Users\PC'S\Desktop\keypad\shift_reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}} C:/Users/PC'S/Desktop/keypad/testbench.v {1 {vlog -work work -stats=none {C:\Users\PC'S\Desktop\keypad\testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/PC'S/Desktop/keypad/shift_reg1.v {1 {vlog -work work -stats=none {C:\Users\PC'S\Desktop\keypad\shift_reg1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_reg1
+
+Top level modules:
+	shift_reg1
+
+} {} {}}

@@ -1,0 +1,12 @@
+module reg_test();
+reg clk;
+ 
+wire [7:0] out; 
+shift_reg shif(.clk(clk), .out(out));
+ initial begin
+   clk = 0;
+  forever #5 clk = ~clk;
+  
+end
+endmodule
+
